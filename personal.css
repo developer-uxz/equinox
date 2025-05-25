@@ -1,0 +1,1038 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Equinox Sans", Arial, sans-serif;
+}
+header {
+    background-color: black;
+    padding: 29px;
+    padding-left: 15px;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+.navi {
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.unorderl li {
+    list-style-type: none;
+    display: inline;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.unorderl li a{
+    list-style-type: none;
+    display: inline;
+    color: white;
+    /* padding: 20px; */
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.unorderl li:hover {
+    color: rgb(221, 201, 201);
+}
+
+.unorderl li a:hover {
+    color: rgb(221, 201, 201);
+}
+
+.unorderl li button a {
+    text-decoration: none;
+    color: black;
+}
+
+.unorderl li button {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+.unorderl li button:hover {
+    background-color: white;
+}
+
+.leftsidenav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 6.5px;
+}
+
+.leftsidenav {
+    align-content: center;
+    padding: 0px;
+}
+
+
+.sectionone{
+    width: 100%;
+    height: 844px;
+}
+.sectionone video{
+    width: 100%;
+}
+.videodiv{
+    max-width: 93%;
+    margin: auto;
+    position: relative;
+    bottom: 655px;
+}
+.fchild{
+    font-size: 75px;
+    text-transform: uppercase;
+    max-width: 37%;
+    font-weight: 600;
+    color: white;
+}
+.schild{
+    padding-top: 25px;
+    font-size: 23px;
+    color: white;
+}
+.tchild button{
+    padding: 23px 93px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.tchild button:hover{
+    background-color: aliceblue;
+}
+.sectiontwo{
+    background-color: #000000;
+    color: white;
+}
+.stmain{
+    max-width: 86%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+}
+.stfchild{
+    font-weight: 600;
+    font-size: 40px;
+    max-width: 25%;
+}
+.stschild{
+    max-width: 62%;
+    margin-left: 76px;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.hamza{
+    padding-top: 10px;
+}
+.sectionthree{
+    background-color: #000000;
+    color: white;
+}
+.sthreemain{
+    max-width: 86%;
+    margin: auto;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+}
+.stefchild{
+    font-weight: 600;
+    font-size: 40px;
+    max-width: 40%;
+}
+.coach{
+    padding-top: 60px;
+    font-size: 26px;
+}
+.our{
+    padding-top: 30px;
+}
+.sepration{
+    height: 1px;
+    width: 90%;
+    background-color: rgb(68, 67, 67);
+    margin-top: 30px;
+}
+.steschild{
+    margin-left: 117px;
+    max-width: 50%;
+}
+.steschild img{
+    width: 122%;
+    height: 550px;
+}
+.secfmain{
+    background-image: url(images/22ndbg.webp);
+    width: 100%;
+    height: 830px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sectionfour{
+    color: white;
+}
+.heading{
+    margin-left: 95px;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.paragraph{
+    margin-left: 95px;
+    max-width: 36%;
+    line-height: 1.4;
+    font-size: 19px;
+}
+.gridd{
+    max-width: 89%;
+    margin: auto;
+    /* display: flex; */
+    /* flex-direction: row; */
+    padding-top: 325px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.gridmain{
+    max-width: 100%;
+    padding: 0px 20px 40px 20px;
+    cursor: pointer;
+}
+.gridmain:hover{
+    background-color: white;
+    color: black;
+}
+.boldd{
+    font-size: 25px;
+}
+.light{
+    font-size: 15px;
+    padding-top: 15px;
+    line-height: 1.2
+}
+.numb{
+    font-size: 20px;
+}
+.secfivemain{
+    max-width: 87%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    font-family: "Equinox Sans", Arial, sans-serif;
+}
+.secfiveleft{
+    max-width: 30%;
+}
+.sfivehead{
+    font-size: 41px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.sfivepra{
+    font-size: 19px;
+    padding-top: 20px;
+    line-height: 1.4;
+}
+.secfivebtn button{
+    padding: 20px 65px;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+.secfivebtn button:hover{
+    background-color: rgba(255, 255, 255, 0.651);
+}
+.secfivebtn{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.sectionfive{
+    background-color: black;
+    color: white;
+    padding-top: 200px;
+}
+.secfiveimg img{
+    width: 55%;
+    margin-left: 122px;
+}
+.secfiveright{
+    text-align: center;
+    padding-bottom: 110px;
+}
+.other{
+    font-size: 18px;
+}
+.othrh{
+    padding-top: 10px;
+}
+.rht{
+    padding-bottom: 155px;
+}
+
+
+
+
+
+
+
+
+
+.secsevenmain {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftside {
+    /* max-width: 50%; */
+    background-image: url(images/6thbg.webp);
+    width: 50%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Equinox Sans", Arial, sans-serif;
+    background-position: center;
+    color: white;
+}
+
+.teext {
+    font-size: 66px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-word;
+    margin-left: 50px;
+    padding-top: 110px;
+}
+
+.delete {
+    text-decoration: line-through;
+}
+
+.lasttxt {
+    margin-left: 50px;
+    font-size: 25px;
+    padding-top: 35px;
+}
+
+.rightsideform {
+    max-width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    scroll-behavior: smooth;
+    overflow: scroll;
+    height: 550px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    max-width: 70%;
+    /* padding: 100px; */
+    margin: auto;
+}
+
+.input1 input {
+    width: 70%;
+    height: 15px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.input2 input {
+    width: 70%;
+    height: 15px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.emailinput input {
+    padding: 20px;
+    width: 72%;
+    font-size: 20px;
+    height: 15px;
+}
+
+.emailinput {
+    padding-left: 113px;
+    padding-top: 45px;
+}
+
+.spnn {
+    font-size: 11px;
+    padding-left: 113px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.emailinput .input {
+    padding: 15px;
+    width: 80%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.pra {
+    width: 64%;
+    font-size: 11px;
+    padding-left: 113px;
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 45px;
+}
+
+.emailinput button {
+    height: 60px;
+    width: 50%;
+    font-size: 20px;
+    border: none;
+    cursor: not-allowed;
+}
+
+.arp {
+    font-size: 15px;
+    max-width: 4%;
+    padding-bottom: 7px;
+}
+
+.check {
+    display: flex;
+    align-items: end;
+    max-width: 90%;
+    color: black;
+}
+
+.lastpra {
+    padding-left: 139px;
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 13px;
+    font-size: 12px;
+}
+
+.eightmain {
+    display: flex;
+    max-width: 93%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 85px;
+}
+
+.list li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.list li a:hover {
+    color: black;
+}
+
+.list li {
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+
+.list {
+    width: 30%;
+}
+
+.icons {
+    width: 21%;
+    cursor: pointer;
+}
+
+.icons span {
+    padding-left: 30px;
+}
+
+.lastlist li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.lastlist li {
+    display: inline;
+    padding-left: 18px;
+    font-size: 13px;
+}
+
+.lastlist {
+    text-align: end;
+}
+
+.secninemain {
+    margin-right: 55px;
+}
+
+.lastlist li a:hover {
+    color: #000000;
+}
+
+.secnine {
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+/* .................................................RESPONSIVE CODE................................................ */
+
+
+
+
+
+
+@media screen and (width:320px) {
+    header{
+        width: 332.5%;
+    }
+    /* .leftsidenav a{
+        letter-spacing: 0;
+    } */
+    .navi {
+        max-width: 100%;
+    }
+
+    .unorderl li button {
+        padding: 5px;
+    }
+
+    .unorderl li {
+        padding: 12px;
+    }
+    /* .bgcolor{
+        background-color: #000000 !important;
+    } */
+    main {
+        width: 347%;
+    }
+    .fchild{
+        font-size: 61px;
+        padding-top: 30px;
+    }
+    .sectionone{
+        height: 694px;
+    }
+    .stfchild{
+        font-size: 32px;
+    }
+    .stschild{
+        font-size: 14px;
+    }
+    .stefchild{
+        font-size: 29px;
+    }
+    .steschild img{
+        width: 105%;
+    }
+    .boldd{
+        font-size: 19px;
+    }
+    .light{
+        font-size: 11px;
+    }
+
+
+
+
+
+    .secsevenmain {
+        flex-direction: column;
+    }
+
+    .leftside {
+        width: 100%;
+        height: 500px;
+    }
+
+    .teext {
+        font-size: 70px;
+    }
+
+    .lasttxt {
+        font-size: 22px;
+    }
+
+    .rightsideform {
+        max-width: 100%;
+    }
+    .form{
+        flex-direction: column;
+    }
+
+    .input1 input {
+        width: 86%;
+        font-size: 25px;
+    }
+
+    .input2 input {
+        width: 86%;
+        margin-top: 31px;
+        height: 15px;
+    }
+    .emailinput{
+        padding-left: 55px;
+        padding-top: 56px;
+    }
+    .icons{
+        width: 30%;
+    }
+    .secnine {
+        padding-bottom: 80px;
+        padding-top: 40px;
+    }
+    .lastlist li {
+        font-size: 10px;
+    }
+
+    .emailinput input {
+        width: 66%;
+        height: 21px;
+        margin-left: 129px;
+    }
+
+    .spnn {
+        font-size: 13px;
+        padding-left: 184px;
+    }
+
+    .emailinput .input {
+        margin-left: 125px;
+        width: 71%;
+    }
+
+    .pra {
+        padding-left: 178px;
+        padding-top: 30px;
+    }
+
+    .emailinput button {
+        margin-left: 120px;
+        height: 70px;
+        width: 28%;    
+    }
+
+    .media {
+        font-size: 12px;
+    }
+
+    .list {
+        width: 37%;
+    }
+
+    .icons span {
+        padding-left: 40px;
+    }
+}
+
+
+
+@media screen and (width:375px) {
+    header {
+        width: 273%;
+    }
+
+    .leftsidenav a {
+        /* letter-spacing: 0; */
+        font-size: 25px;
+    }
+
+    .unorderl li {
+        padding: 30px;
+    }
+
+    .unorderl li button {
+        padding: 20px;
+    }
+    main {
+        width: 285%;
+    }
+    .fchild{
+        font-size: 59px;
+    }
+    .schild{
+        font-size: 17px;
+    }
+    .tchild button{
+        padding: 20px 51px;
+    }
+    .sectionone {
+        height: 668px;
+    }
+    .stfchild{
+        font-size: 33px;
+    }
+    .stschild{
+        font-size: 16px;
+    }
+    .steschild img{
+        width: 105%;
+    }
+    .stefchild{
+        font-size: 36px;
+    }
+    .boldd{
+        font-size: 18px;
+    }
+    .light {
+        font-size: 12px;
+    }
+    .sfivepra{
+        font-size: 17px;
+    }
+    .secfivebtn button{
+        padding: 20px 15px;
+    }
+    .sfivehead{
+        font-size: 37px;
+    }
+
+
+
+
+    .teext {
+        font-size: 26px;
+    }
+
+    .lasttxt {
+        font-size: 8px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input2 input {
+        margin-top: 30px;
+        width: 69%;
+    }
+
+    .emailinput {
+        padding-left: 123px;
+        padding-top: 50px;
+    }
+
+    .emailinput input {
+        width: 57%;
+    }
+
+    .spnn {
+        font-size: 5px;
+        padding-left: 123px;
+    }
+
+    .pra {
+        padding-left: 120px;
+        padding-top: 30px;
+    }
+
+    .media {
+        font-size: 11px;
+    }
+
+    .icons {
+        width: 35%;
+    }
+
+    .lastlist li {
+        font-size: 10px;
+    }
+    .input1 input{
+        width: 69%;
+    }
+    .icons span {
+        padding-left: 50px;
+    }
+}
+
+
+@media screen and (width:425px) {
+    header {
+        width: 273.5%;
+    }
+
+    .leftsidenav a {
+        /* letter-spacing: 0; */
+        font-size: 25px;
+    }
+
+    .unorderl li {
+        padding: 30px;
+    }
+
+    .unorderl li button {
+        padding: 20px;
+    }
+    main {
+        width: 285.5%;
+    }
+    .fchild{
+        font-size: 66px;
+    }
+    .schild{
+        font-size: 17px;
+    }
+    .tchild button{
+        padding: 20px 51px;
+    }
+    .sectionone {
+        height: 757px;
+    }
+    .stfchild{
+        font-size: 33px;
+    }
+    .stschild{
+        font-size: 16px;
+    }
+    .steschild img{
+        width: 105%;
+    }
+    .stefchild{
+        font-size: 36px;
+    }
+    .boldd{
+        font-size: 18px;
+    }
+    .light {
+        font-size: 12px;
+    }
+    .sfivepra{
+        font-size: 17px;
+    }
+    .secfivebtn button{
+        padding: 20px 15px;
+    }
+    .sfivehead{
+        font-size: 44px;
+    }
+
+    .teext {
+        font-size: 26px;
+    }
+
+    .lasttxt {
+        font-size: 8px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input2 input {
+        margin-top: 30px;
+        width: 69%;
+    }
+
+    .emailinput {
+        padding-left: 123px;
+        padding-top: 50px;
+    }
+
+    .emailinput input {
+        width: 57%;
+    }
+
+    .spnn {
+        font-size: 5px;
+        padding-left: 123px;
+    }
+
+    .pra {
+        padding-left: 120px;
+        padding-top: 30px;
+    }
+
+    .media {
+        font-size: 11px;
+    }
+
+    .icons {
+        width: 35%;
+    }
+
+    .lastlist li {
+        font-size: 10px;
+    }
+    .input1 input{
+        width: 69%;
+    }
+    .icons span {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (width:768px) {
+    header {
+        width: 279.5%;
+    }
+
+    .leftsidenav a {
+        /* letter-spacing: 0; */
+        font-size: 35px;
+    }
+
+    .unorderl li {
+        padding: 50px;
+        font-size: 35px;
+    }
+
+    .unorderl li button {
+        padding: 30px;
+    }
+    main {
+        width: 285.5%;
+    }
+    .sectionone{
+        height: 1368px;
+    }
+    .videodiv{
+        bottom: 970px;
+    }
+    .fchild{
+        font-size: 120px;
+    }
+    .schild{
+        font-size: 35px;
+    }
+    .tchild button{
+        padding: 40px 125px;
+        font-size: 30px;
+    }
+    .stfchild{
+        font-size: 50px;
+    }
+    .stschild{
+        font-size: 28px;
+    }
+    .steschild img{
+        height: 570px;
+    }
+    .steschild{
+        margin-left: 660px;
+    }
+    .boldd{
+        font-size: 35px;
+    }
+    .light{
+        font-size: 24px;
+    }
+
+
+
+
+    .teext {
+        font-size: 36px;
+    }
+
+    .lasttxt {
+        font-size: 11px;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .input2 {
+        margin-top: 30px;
+    }
+
+    
+    .emailinput {
+    padding-left: 261px;
+    }
+    
+
+    .emailinput input {
+        width: 62%;
+        font-size: 16px;
+    }
+
+    .spnn {
+        padding-left: 260px;
+        font-size: 10px;
+    }
+
+    .emailinput .input {
+        width: 77%;
+    }
+
+    .pra {
+        padding-left: 260px;
+    }
+
+    .media {
+        font-size: 12px;
+    }
+
+    .lastpra {
+        padding-left: 260px;
+    }
+    .list li a{
+        font-size: 30px;
+    }
+
+    .icons span {
+        padding-left: 75px;
+    }
+
+    .icons {
+        width: 24%;
+    }
+
+    .lastlist li {
+        font-size: 22px;
+    }   
+} 
+
+
+@media screen and (width:1024px){
+    header {
+        width: 103.5%;
+    }
+    main{
+        width: 108%;
+    }
+    .sectionone{
+        height: 691px;
+    }
+    .stfchild{
+        font-size: 36px;
+    }
+    .stschild{
+        font-size: 15px;
+    }
+    .boldd{
+        font-size: 16px;
+    }
+    .icons{
+        width: 25%;
+    }
+    .lastlist li{
+        font-size: 11px;
+    }
+}
