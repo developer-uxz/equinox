@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background">
+        <!-- <div class="box">
+        </div> -->
+        <header>
+            <nav>
+                <div class="logo">NETFLIX</div>
+                <div class="loginbtn"><button>Sign In</button></div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="secone">
+                <div class="txt">
+                    <div class="bold">Unlimited movies, TV shows, and more</div>
+                    <div class="bold1">Starts at Rs 250. Cancel anytime.</div>
+                    <div class="bold2">Ready to watch? Enter your email to create or restart your membership.</div>
+                    <div class="emailform">
+                        <div><input type="text" placeholder="Email address" required></div>
+                        <div class="emailbtn"><button>Get Started &gt;</button></div>
+                    </div>
+            </section>
+
+            <section class="sectwo">
+                <div class="heading">More Reasons to Join</div>
+                <div class="sectwodiv">
+                    <div class="cards">
+                        <div class="crd1">
+                            <div>Enjoy on your TV</div>
+                            <div>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
+                            </div>
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="80"
+                                    height="80" color="#192247" fill="none">
+                                    <path
+                                        d="M2 10C2 6.22876 2 4.34315 3.17157 3.17157C4.34315 2 6.22876 2 10 2H14C17.7712 2 19.6569 2 20.8284 3.17157C22 4.34315 22 6.22876 22 10C22 13.7712 22 15.6569 20.8284 16.8284C19.6569 18 17.7712 18 14 18H10C6.22876 18 4.34315 18 3.17157 16.8284C2 15.6569 2 13.7712 2 10Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M16 22C14.8233 21.364 13.4571 21 12 21C10.5429 21 9.17669 21.364 8 22"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                </svg></span>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="crd1">
+                            <div>Download your shows to watch offline</div>
+                            <div>Save your favorites easily and always have something to watch.</div>
+                            <span class="icons"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="80"
+                                    height="80" color="#192247" fill="none">
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+                                    <path d="M16 10.5C16 10.5 13.054 13.5 12 13.5C10.9459 13.5 8 10.5 8 10.5"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></span>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="crd1">
+                            <div>Watch everywhere</div>
+                            <div>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</div>
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="80"
+                                    height="80" color="#192247" fill="none">
+                                    <path d="M19 22L14 13L9 22" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M15.9196 4L7.02715 9.2559C6.04492 9.83645 5.70838 11.1222 6.27548 12.1278L7.30228 13.9485C7.86937 14.954 9.12535 15.2985 10.1076 14.718L19 9.46209"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                                    <path
+                                        d="M16.2195 4.45572C15.7677 3.67278 16.0358 2.67162 16.8184 2.21959C17.601 1.76755 18.6017 2.03581 19.0535 2.81876L21.7805 7.54428C22.2323 8.32723 21.9642 9.32838 21.1816 9.78042C20.399 10.2325 19.3983 9.96419 18.9465 9.18124L16.2195 4.45572Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M2 14.2645L2.73817 15.6322M2.73817 15.6322L3.47634 17M2.73817 15.6322L6.5 13.5"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></span>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="crd1">
+                            <div>Create profiles for kids</div>
+                            <div>Send kids on adventures with their favorite characters in a space made just for them —
+                                free with your membership.</div>
+                            <span class="iconss"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="80"
+                                    height="80" color="#192247" fill="none">
+                                    <path
+                                        d="M2 12C2 7.75736 2 5.63604 3.46447 4.31802C4.92893 3 7.28596 3 12 3C16.714 3 19.0711 3 20.5355 4.31802C22 5.63604 22 7.75736 22 12C22 16.2426 22 18.364 20.5355 19.682C19.0711 21 16.714 21 12 21C7.28596 21 4.92893 21 3.46447 19.682C2 18.364 2 16.2426 2 12Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M8.4 8H7.6C6.84575 8 6.46863 8 6.23431 8.23431C6 8.46863 6 8.84575 6 9.6V10.4C6 11.1542 6 11.5314 6.23431 11.7657C6.46863 12 6.84575 12 7.6 12H8.4C9.15425 12 9.53137 12 9.76569 11.7657C10 11.5314 10 11.1542 10 10.4V9.6C10 8.84576 10 8.46863 9.76569 8.23431C9.53137 8 9.15425 8 8.4 8Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                                    <path d="M6 16H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M14 8H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M14 12H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M14 16H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="heading">Frequently Asked Questions</div>
+                <div class="allquestion">
+                    <div class="frequentlyquestions">
+                        <div class="question">What is Netflix?</div>
+                        <div class="sign">+</div>
+                    </div>
+
+                    <div class="frequentlyquestions">
+                        <div class="question">How much does Netflix cost?</div>
+                        <div class="sign">+</div>
+                    </div>
+
+                    <div class="frequentlyquestions">
+                        <div class="question">Where can I watch?</div>
+                        <div class="sign">+</div>
+                    </div>
+
+                    <div class="frequentlyquestions">
+                        <div class="question">How do I cancel</div>
+                        <div class="sign">+</div>
+                    </div>
+
+
+                    <div class="frequentlyquestions">
+                        <div class="question">What can I watch on Netflix?</div>
+                        <div class="sign">+</div>
+                    </div>
+
+                    <div class="frequentlyquestions">
+                        <div class="question">Is Netflix good for kids?</div>
+                        <div class="sign">+</div>
+                    </div>
+                </div>
+
+                <div class="txxt">Ready to watch? Enter your email to create or restart your membership.</div>
+
+                <div class="mailform">
+                    <div><input type="text" placeholder="Email address" required></div>
+                    <div><button>Get Started &gt;</button></div>
+                </div>
+
+
+                <div class="gridsec">
+                    <div class="txtt"><a href="">Questions? Contact us.</a></div>
+                </div>
+                <div class="griddsecc">
+                    <div class="grid">
+                        <div class="aa"><a href="">FAQ</a></div>
+                        <div class="aa"><a href="">Investor Relations</a></div>
+                        <div class="aa"><a href="">Privacy</a></div>
+                        <div><a href="">Speed Test</a></div>
+                    </div>
+
+                    <div class="grid">
+                        <div class="aa"><a href=""> Help Center</a></div>
+                        <div class="aa"><a href="">Jobs</a></div>
+                        <div class="aa"><a href=""> Cookie Preferences</a></div>
+                        <div><a href="">Legal Notices</a></div>
+                    </div>
+
+                    <div class="grid">
+                        <div class="aa"><a href="">Account</a></div>
+                        <div class="aa"><a href="">Ways to Watch</a></div>
+                        <div class="aa"><a href="">Corporate Information</a></div>
+                        <div><a href="">Only on Netflix</a></div>
+                    </div>
+
+                    <div class="grid">
+                        <div class="aa"><a href="">Media Center</a></div>
+                        <div class="aa"><a href="">Terms of Use</a></div>
+                        <div><a href="">Contact Us</a></div>
+                    </div>
+                </div>
+                <div class="selector">
+                    <select class="opion" name="option" id="option">
+                        <option value="English">English</option>
+                    </select>
+                    <div class="end">Netflix Pakistan</div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+</body>
+
+</html>
